@@ -1,3 +1,40 @@
 #root {
-  color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  text-align: center;
+  column-gap: 70px;
+  row-gap: 150px;
+  padding: 200px;
+}
+
+#nav-bar{
+  margin: 50px 0px 0px 200px;
+  height: 50px;
+  display:flex;
+  column-gap: 10px;
+}
+
+#search, #select {
+  border-radius: 5px;
+  /* border: 2px solid gray; */
+}
+.display-number-of-episodes{
+  margin-top: 8px;
+  color: gray;
+}
+.title{
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-top: -50px;
+}
+.season-episode{
+  font-style: italic;
+  font-size: 25px;
+}
+.description{
+  color: grey;
+  text-align: left;
+}
+.data-origin{
+  text-align: left;
 }
