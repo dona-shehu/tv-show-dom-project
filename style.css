@@ -5,7 +5,8 @@
   column-gap: 70px;
   row-gap: 150px;
   padding: 200px;
-}
+  /* display: none; */
+} 
 
 #nav-bar{
   margin: 50px 0px 0px 200px;
@@ -38,3 +39,9 @@
 .data-origin{
   text-align: left;
 }
+
+/* #shows-container{
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: auto auto 20%;
+} */
