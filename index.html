@@ -3,18 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
+    <title>TV Show Project | Dona  (dona-shehu)</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
+    <nav id="nav-bar">
+      <select id="shows">
+        <option value="" disable selected> Select a show </option>
+        <!-- <options>  -->
+      </select>
+      <select id="select">
+        <option value="" disable selected >Select an episode </option>
+       <!-- <options> -->
+      </select>
+      
+      <input type="text" id="search" placeholder="Search">
+      <p class="display-number-of-episodes"></p>
+    </nav>
+    <!-- A VISUAL EFFECT WHAT I HAVE IN HTML   -->
     <div id="root">
-    </div>
-
+      <!-- <div> -->
+      <!-- <h1> for the title</h1> -->
+      <!-- <img> -->
+      <!-- <p> for summary</p> -->
+      <!-- <p> for data origin </p> -->
+      <!-- </div> -->
+      </div>
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
-
+    <script src="shows.js"></script>
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
   </body>
